@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "magic-regexp": "^0.6.2"
+  }
+}

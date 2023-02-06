@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "build_regex"
+version = "0.1.0"
+description = "Build regex patterns with ease"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name="Tired Fox", email="zboehm104@gmail.com"}
+]
+classifiers = [
+
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+tests = []
+
+[project.urls]
+"Homepage" = ""
+"Website" = ""
+
+[project.scripts]
+
+[tool.black]
+line-length = 100
+target-version = ["py37"]
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+ignore_missing_imports = true
+warn_unreachable = true
+no_implicit_optional = true
+show_error_codes = true
